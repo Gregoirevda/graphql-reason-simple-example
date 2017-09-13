@@ -4,10 +4,13 @@ Have something you don't understand? Join us on [Discord](https://discord.gg/rea
 Run this project:
 
 ```
-npm install
-npm start
-# in another tab
-npm run webpack
+yarn
+# run Reason compiler
+yarn start
+# in another tab, run webpack
+yarn webpack
+#in another tab, run the graphql backend
+yarn run:server
 ```
 
 After you see the webpack compilation succeed (the `npm run webpack` step), open up the nested html files in `src/*` (**no server needed!**). Then modify whichever file in `src` and refresh the page to see the changes.
