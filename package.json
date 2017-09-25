@@ -23,7 +23,8 @@
     "react": "^15.4.2",
     "react-apollo": "^1.4.15",
     "react-dom": "^15.4.2",
-    "reason-react": ">=0.2.1"
+    "reason-react": ">=0.2.1",
+    "graphql-tag": "^2.4.2"
   },
   "devDependencies": {
     "bs-platform": "^1.9.1",
